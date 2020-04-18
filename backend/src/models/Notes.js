@@ -7,8 +7,7 @@ const noteSchema = new Schema({
     unique: true
   },
   content: {
-    type: String,
-    required: true
+    type: String
   },
   author: {
     type: String,
